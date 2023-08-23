@@ -6,7 +6,7 @@ Feature: Account Type
   Scenario: Teacher user
 
     When The user logs in using "teacher@bootflow.academy" and "Test12345!"
-    Then The welcome message contains "Teacher"
+    Then The welcome message contains "Teachera"
 
   @rerun
   Scenario: Student user
