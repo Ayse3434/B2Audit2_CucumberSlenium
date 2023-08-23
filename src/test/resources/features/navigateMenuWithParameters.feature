@@ -1,4 +1,4 @@
- @teacher
+@regression @teacher
 Feature: Navigate to menu with parameters
 Background:
   Given The user is on the login page

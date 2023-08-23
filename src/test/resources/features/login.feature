@@ -9,7 +9,7 @@ Feature: Devbook Login Test
     When The user enters teacher credentials
     Then The user should be able to login
 
-  @student
+  @regression @student
   Scenario: Login as a Student
    #Given The user is on the login page
     When The user enters student credentials
