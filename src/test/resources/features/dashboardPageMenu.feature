@@ -1,4 +1,4 @@
-@smoke
+
 Feature: Dashboard Page Menu
 
   Scenario:  User should be able to see dashboard Menu after log in

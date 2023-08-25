@@ -1,15 +1,15 @@
-@smoke
+
 Feature: Account Type
 
   Background:
     Given The user is on the login page
-@rerun
+@rerun @grid
   Scenario: Teacher user
 
     When The user logs in using "teacher@bootflow.academy" and "Test12345!"
     Then The welcome message contains "Teachera"
 
-  @rerun
+  @rerun @grid
   Scenario: Student user
 
     When The user logs in using "sdetb2@bootflow.com" and "Test1234"

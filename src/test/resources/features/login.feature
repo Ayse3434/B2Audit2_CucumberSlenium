@@ -1,4 +1,4 @@
-@login @smoke @regression
+@login  @regression
 Feature: Devbook Login Test
   #Agile story :As a user,I should be able to log in so I can see my
   Background:
